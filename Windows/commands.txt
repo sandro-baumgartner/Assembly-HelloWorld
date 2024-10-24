@@ -1,0 +1,2 @@
+Build object file: nasm -f win32 app.asm
+Link to executable: ld -o app.exe app.obj -lkernel32
